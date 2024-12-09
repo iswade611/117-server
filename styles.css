@@ -1,0 +1,124 @@
+
+body {
+    background-color: lavender;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+
+header {
+    font-family: "Molle", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.4em;
+    background: radial-gradient(50% 50% at 50% 50%, #FABABA 0%, #F0D4D0 50%, #E6E6FA 100%);
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+#texticons {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 375px;
+}
+
+.icons {
+  font-size: 30px;
+  color: lemonchiffon;
+  
+}
+
+#dog {
+  position: absolute;
+  left: 10px;
+}
+
+#record {
+  position: absolute;
+  right: 10px;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+ul li a, ol li a{
+    display: block;
+    padding: 10px;
+    background-color:lemonchiffon;
+    color: black;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+ul li a:hover, ol li a:hover {
+    background-color:gold;
+    color: black;
+    border: 1px solid gold;
+}
+
+
+img {
+    display: block;
+    margin: auto;
+    padding-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    /* padding: 10px 10px 30px 30px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+
+footer {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: lowercase;
+}
+
+@media only screen and (min-width: 600px) {
+  #work {
+    flex: 2;
+  }
+
+  header {
+    background: radial-gradient(50% 50% at 50% 50%, #FABABA 0%, #F0D4D0 50%, #E6E6FA 100%);
+  }
+
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  aside {
+    flex: 1;
+  }
+   
+  /* #dog {
+    left: 300px;
+  }
+  
+  #record {
+    right: 300px;
+  } */
+  
+}

@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    line-height: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+main {
+    width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    border: 2px solid #666;
+    width: 1000px;
+    display: flex;
+}
+
+section .left {
+    background-color: #caddb3;
+    text-align: center;
+    padding: 20px 0;
+    flex: 1;
+    /* width: 50%; */
+    /* Experiment with width */
+}
+
+section .right {
+    background-color: #6a0c4a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    flex: 1;
+    /* width: 50%; */
+     /* Experiment with width */
+}

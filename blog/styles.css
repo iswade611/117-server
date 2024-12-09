@@ -1,0 +1,285 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background: linear-gradient(180deg, #B2E0DD 0%, #919BEE 100%);
+    
+}
+
+header {
+    /* font-family: "Sarina", cursive;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: "Rock 3D", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+   
+}
+
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px;
+    display: flex;
+    flex: column;
+    justify-content: space-evenly;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-family: "Nokora", sans-serif;
+    font-weight: 400;
+    font-style: normal; */
+    text-align: center;
+    color: black;
+    font-size: 1.2em;
+    display: block;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+    padding: 15px;
+    background-color: lavender;
+    border-radius: 5px;
+    
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: lavender;
+    border: 1px solid black;
+
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    display: block;
+    /* margin: auto; */
+    /* border: 10px solid lavender; */
+    /* padding: 15px; */
+    /* background-color: lavender; */
+    /* border-radius: 5px; */
+   
+}
+
+.title {
+    display: block;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 4px solid aliceblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+
+.header {
+    border: 10px solid lavender;
+    background-color: lavender;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px 5px 0px 0px;
+    max-width: 1200px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    /* border-bottom: 10px solid lavender;
+    border-radius: 0px 0px 5px 5px; */
+}
+
+.image {
+    border-bottom: 10px solid lavender;
+    border-radius: 0px 0px 5px 5px;
+}
+
+time {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    /* justify-content: center; */
+    /* margin: auto; */
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+
+footer, address {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+
+}
+
+address {
+    padding: 15px;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+address a{
+    text-decoration: none;
+    color: black;
+}
+
+.blogp {
+    font-size: 18.5px;
+    line-height: 150%;
+}
+
+.home1 a{
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.home2 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.c3 a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    border-top: 1px solid black;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #parent {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+
+    .child {
+        padding: 20px;
+    }
+
+    section {
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    article .col {
+        flex: 1;
+        max-width: 300px;
+    }
+
+    .row1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .row2 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .home1 {
+        
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .home2 {
+        width: 250px;
+        padding-bottom: 20px;
+
+    }
+
+    .image {
+        border-bottom: 10px solid lavender;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    #p {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+   
+
+
+    p {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+   
+
+
+    time {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    footer {
+        /* padding: 20px; */
+        display: flex;
+        justify-content: space-evenly;
+        /* gap: 25px; */
+        border-top: 1px solid black;
+        
+
+        
+    }
+
+    footer div {
+        flex: 1;
+        padding: 20px;
+        margin: 0;
+        font-size: 16px;
+        
+    }
+
+    
+
+   
+
+
+}
